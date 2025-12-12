@@ -1,0 +1,362 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Новости - Цифровой Ветер</title>
+    <link rel="stylesheet" href="css/output.css">
+    <link rel="stylesheet" href="css/output.css">
+    <link rel="stylesheet" href="css/output.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&family=Orbitron:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Header / Navigation -->
+    <header class="header" id="header">
+        <nav class="nav max-w-container mx-auto px-5">
+            <div class="nav__logo">
+                <i class="fas fa-wind"></i>
+                <span class="logo-text">Цифровой <span class="logo-accent">Ветер</span></span>
+            </div>
+            
+            <div class="nav__menu" id="nav-menu">
+                <ul class="nav__list">
+                    <li class="nav__item"><a href="index.html" class="nav__link">Главная</a></li>
+                    <li class="nav__item"><a href="index.html#about" class="nav__link">О конкурсе</a></li>
+                    <li class="nav__item"><a href="index.html#nominations" class="nav__link">Номинации</a></li>
+                    <li class="nav__item"><a href="catalog.html" class="nav__link">Каталог работ</a></li>
+                    <li class="nav__item"><a href="news.html" class="nav__link active">Новости</a></li>
+                    <li class="nav__item"><a href="index.html#dksh" class="nav__link">ДКШ</a></li>
+                    <li class="nav__item"><a href="contacts.html" class="nav__link">Контакты</a></li>
+                </ul>
+                
+                <div class="nav__auth">
+                    <button class="inline-flex items-center gap-2.5 px-7 py-3 text-base font-semibold rounded-md transition-all duration-base cursor-pointer whitespace-nowrap bg-white text-primary border-2 border-primary hover:bg-primary hover:text-white" id="login-btn">Вход</button>
+                    <button class="inline-flex items-center gap-2.5 px-7 py-3 text-base font-semibold rounded-md transition-all duration-base cursor-pointer whitespace-nowrap bg-gradient-accent text-white shadow-md hover:-translate-y-0.5 hover:shadow-lg hover:shadow-glow" id="register-btn">Регистрация</button>
+                </div>
+            </div>
+
+            <div class="nav__toggle" id="nav-toggle">
+                <i class="fas fa-bars"></i>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Page Header -->
+    <section class="page-header">
+        <div class="page-header__bg"></div>
+        <div class="max-w-container mx-auto px-5">
+            <div class="page-header__content">
+                <h1 class="page-header__title">Новости конкурса</h1>
+                <p class="page-header__subtitle">Актуальная информация о конкурсе "Цифровой Ветер"</p>
+                <div class="breadcrumbs">
+                    <a href="index.html"><i class="fas fa-home"></i> Главная</a>
+                    <span>/</span>
+                    <span>Новости</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- News Section -->
+    <section class="news-page py-section md:py-section-mobile">
+        <div class="max-w-container mx-auto px-5">
+            <div class="news-page__layout">
+                <!-- Main News Content -->
+                <div class="news-page__main">
+                    <article class="news-article featured">
+                        <div class="news-article__image">
+                            <img src="https://via.placeholder.com/1000x500/0066cc/ffffff?text=Открыт+прием+работ" alt="Открыт прием работ">
+                            <span class="news-article__badge">Важно</span>
+                        </div>
+                        <div class="news-article__content">
+                            <div class="news-article__meta">
+                                <span class="news-article__date">
+                                    <i class="fas fa-calendar"></i> 20 января 2025
+                                </span>
+                                <span class="news-article__category">Объявления</span>
+                                <span class="news-article__author">
+                                    <i class="fas fa-user"></i> Оргкомитет
+                                </span>
+                            </div>
+                            <h2 class="news-article__title">Открыт прием работ на конкурс "Цифровой Ветер-2025"</h2>
+                            <div class="news-article__text">
+                                <p>Уважаемые участники! Начался прием заявок на участие в XXIV Международном конкурсе компьютерных работ "Цифровой Ветер-2025". Регистрация продлится до 24 марта 2025 года включительно.</p>
+                                <p>В этом году конкурс проводится по следующим номинациям:</p>
+                                <ul>
+                                    <li>Компьютерная графика</li>
+                                    <li>Видеомонтаж и анимация</li>
+                                    <li>Веб-дизайн</li>
+                                    <li>Программирование</li>
+                                    <li>Искусственный интеллект (новая номинация)</li>
+                                    <li>VR/AR проекты (новая номинация)</li>
+                                </ul>
+                                <p>Для участия необходимо зарегистрироваться на сайте конкурса и загрузить свою работу в соответствии с требованиями положения.</p>
+                            </div>
+                            <div class="news-article__footer">
+                                <div class="news-article__tags">
+                                    <span class="tag">#регистрация</span>
+                                    <span class="tag">#2025</span>
+                                    <span class="tag">#конкурс</span>
+                                </div>
+                                <div class="news-article__share">
+                                    <span>Поделиться:</span>
+                                    <a href="#" class="share-btn inline-flex items-center gap-2.5 px-7 py-3 text-base font-semibold rounded-md transition-all duration-base cursor-pointer whitespace-nowrap"><i class="fab fa-vk"></i></a>
+                                    <a href="#" class="share-btn inline-flex items-center gap-2.5 px-7 py-3 text-base font-semibold rounded-md transition-all duration-base cursor-pointer whitespace-nowrap"><i class="fab fa-telegram"></i></a>
+                                    <a href="#" class="share-btn inline-flex items-center gap-2.5 px-7 py-3 text-base font-semibold rounded-md transition-all duration-base cursor-pointer whitespace-nowrap"><i class="fab fa-facebook"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                    </article>
+
+                    <article class="news-article">
+                        <div class="news-article__image">
+                            <img src="https://via.placeholder.com/1000x400/3399ff/ffffff?text=Новые+номинации" alt="Новые номинации">
+                        </div>
+                        <div class="news-article__content">
+                            <div class="news-article__meta">
+                                <span class="news-article__date">
+                                    <i class="fas fa-calendar"></i> 15 января 2025
+                                </span>
+                                <span class="news-article__category">Новости</span>
+                            </div>
+                            <h2 class="news-article__title">Добавлены новые номинации конкурса</h2>
+                            <div class="news-article__text">
+                                <p>В 2025 году конкурс "Цифровой Ветер" расширяется! Добавлены две новые номинации: "Искусственный интеллект" и "VR/AR проекты".</p>
+                                <p>Эти направления отражают современные тенденции в IT-индустрии и дают участникам возможность представить свои инновационные разработки.</p>
+                            </div>
+                            <div class="news-article__footer">
+                                <div class="news-article__tags">
+                                    <span class="tag">#номинации</span>
+                                    <span class="tag">#AI</span>
+                                    <span class="tag">#VR</span>
+                                </div>
+                            </div>
+                        </div>
+                    </article>
+
+                    <article class="news-article">
+                        <div class="news-article__image">
+                            <img src="https://via.placeholder.com/1000x400/0099ff/ffffff?text=Итоги+2024" alt="Итоги 2024">
+                        </div>
+                        <div class="news-article__content">
+                            <div class="news-article__meta">
+                                <span class="news-article__date">
+                                    <i class="fas fa-calendar"></i> 28 мая 2024
+                                </span>
+                                <span class="news-article__category">Итоги</span>
+                            </div>
+                            <h2 class="news-article__title">Подведены итоги конкурса "Цифровой Ветер-2024"</h2>
+                            <div class="news-article__text">
+                                <p>В Саратовском государственном техническом университете имени Гагарина Ю.А. состоялась торжественная церемония награждения победителей и призеров XXIII Международного конкурса компьютерных работ.</p>
+                                <p>В конкурсе приняли участие более 500 работ из 42 стран мира. Жюри отметило высокий уровень представленных проектов и креативность участников.</p>
+                            </div>
+                            <div class="news-article__footer">
+                                <div class="news-article__tags">
+                                    <span class="tag">#итоги</span>
+                                    <span class="tag">#2024</span>
+                                    <span class="tag">#награждение</span>
+                                </div>
+                            </div>
+                        </div>
+                    </article>
+
+                    <article class="news-article">
+                        <div class="news-article__content">
+                            <div class="news-article__meta">
+                                <span class="news-article__date">
+                                    <i class="fas fa-calendar"></i> 10 апреля 2024
+                                </span>
+                                <span class="news-article__category">События</span>
+                            </div>
+                            <h2 class="news-article__title">Мастер-класс по 3D-моделированию</h2>
+                            <div class="news-article__text">
+                                <p>В рамках конкурса "Цифровой Ветер" состоится онлайн мастер-класс по 3D-моделированию в Blender. Ведущий - профессиональный 3D-художник с 10-летним опытом работы.</p>
+                            </div>
+                            <div class="news-article__footer">
+                                <div class="news-article__tags">
+                                    <span class="tag">#мастеркласс</span>
+                                    <span class="tag">#3D</span>
+                                    <span class="tag">#обучение</span>
+                                </div>
+                            </div>
+                        </div>
+                    </article>
+
+                    <!-- Pagination -->
+                    <div class="pagination">
+                        <button class="pagination__btn" disabled>
+                            <i class="fas fa-chevron-left"></i>
+                        </button>
+                        <button class="pagination__btn active">1</button>
+                        <button class="pagination__btn">2</button>
+                        <button class="pagination__btn">3</button>
+                        <button class="pagination__btn">
+                            <i class="fas fa-chevron-right"></i>
+                        </button>
+                    </div>
+                </div>
+
+                <!-- Sidebar -->
+                <aside class="news-page__sidebar">
+                    <!-- Categories -->
+                    <div class="sidebar-widget">
+                        <h3 class="sidebar-widget__title">Категории</h3>
+                        <ul class="sidebar-widget__list">
+                            <li>
+                                <a href="#">Все новости <span class="count">128</span></a>
+                            </li>
+                            <li>
+                                <a href="#">Объявления <span class="count">24</span></a>
+                            </li>
+                            <li>
+                                <a href="#">Итоги <span class="count">18</span></a>
+                            </li>
+                            <li>
+                                <a href="#">События <span class="count">32</span></a>
+                            </li>
+                            <li>
+                                <a href="#">Интервью <span class="count">15</span></a>
+                            </li>
+                        </ul>
+                    </div>
+
+                    <!-- Recent News -->
+                    <div class="sidebar-widget">
+                        <h3 class="sidebar-widget__title">Последние новости</h3>
+                        <div class="recent-news">
+                            <article class="recent-news__item">
+                                <div class="recent-news__date">20 янв</div>
+                                <div class="recent-news__content">
+                                    <h4><a href="#">Открыт прием работ на конкурс</a></h4>
+                                    <span class="recent-news__category">Объявления</span>
+                                </div>
+                            </article>
+                            <article class="recent-news__item">
+                                <div class="recent-news__date">15 янв</div>
+                                <div class="recent-news__content">
+                                    <h4><a href="#">Новые номинации 2025</a></h4>
+                                    <span class="recent-news__category">Новости</span>
+                                </div>
+                            </article>
+                            <article class="recent-news__item">
+                                <div class="recent-news__date">28 мая</div>
+                                <div class="recent-news__content">
+                                    <h4><a href="#">Итоги конкурса 2024</a></h4>
+                                    <span class="recent-news__category">Итоги</span>
+                                </div>
+                            </article>
+                        </div>
+                    </div>
+
+                    <!-- Tags Cloud -->
+                    <div class="sidebar-widget">
+                        <h3 class="sidebar-widget__title">Популярные теги</h3>
+                        <div class="tags-cloud">
+                            <a href="#" class="tag-cloud-item">#конкурс</a>
+                            <a href="#" class="tag-cloud-item">#2025</a>
+                            <a href="#" class="tag-cloud-item">#регистрация</a>
+                            <a href="#" class="tag-cloud-item">#победители</a>
+                            <a href="#" class="tag-cloud-item">#мастеркласс</a>
+                            <a href="#" class="tag-cloud-item">#AI</a>
+                            <a href="#" class="tag-cloud-item">#VR</a>
+                            <a href="#" class="tag-cloud-item">#3D</a>
+                            <a href="#" class="tag-cloud-item">#веб-дизайн</a>
+                        </div>
+                    </div>
+
+                    <!-- Newsletter -->
+                    <div class="sidebar-widget newsletter-widget">
+                        <h3 class="sidebar-widget__title">Подписка на новости</h3>
+                        <p>Получайте последние новости конкурса на email</p>
+                        <form class="newsletter-form">
+                            <input type="email" placeholder="Ваш email" required>
+                            <button type="submit" class="inline-flex items-center gap-2.5 px-7 py-3 text-base font-semibold rounded-md transition-all duration-base cursor-pointer whitespace-nowrap bg-gradient-accent text-white shadow-md hover:-translate-y-0.5 hover:shadow-lg hover:shadow-glow">
+                                <i class="fas fa-paper-plane"></i> Подписаться
+                            </button>
+                        </form>
+                    </div>
+                </aside>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="max-w-container mx-auto px-5">
+            <div class="footer__content">
+                <div class="footer__section">
+                    <div class="footer__logo">
+                        <i class="fas fa-wind"></i>
+                        <span class="logo-text">Цифровой <span class="logo-accent">Ветер</span></span>
+                    </div>
+                    <p class="footer__description">
+                        Международный конкурс компьютерных работ среди детей, юношества и студенческой молодежи
+                    </p>
+                    <div class="footer__social">
+                        <a href="#" class="social-link"><i class="fab fa-vk"></i></a>
+                        <a href="#" class="social-link"><i class="fab fa-telegram"></i></a>
+                        <a href="#" class="social-link"><i class="fab fa-youtube"></i></a>
+                        <a href="#" class="social-link"><i class="fab fa-instagram"></i></a>
+                    </div>
+                </div>
+                
+                <div class="footer__section">
+                    <h4 class="footer__title">Навигация</h4>
+                    <ul class="footer__links">
+                        <li><a href="index.html">Главная</a></li>
+                        <li><a href="index.html#about">О конкурсе</a></li>
+                        <li><a href="index.html#nominations">Номинации</a></li>
+                        <li><a href="catalog.html">Каталог работ</a></li>
+                        <li><a href="news.html">Новости</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer__section">
+                    <h4 class="footer__title">Участие</h4>
+                    <ul class="footer__links">
+                        <li><a href="#">Регистрация</a></li>
+                        <li><a href="faq.html">FAQ</a></li>
+                        <li><a href="#">Правила конкурса</a></li>
+                        <li><a href="index.html#dksh">ДКШ</a></li>
+                        <li><a href="contacts.html">Контакты</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer__section">
+                    <h4 class="footer__title">Контакты</h4>
+                    <ul class="footer__contacts">
+                        <li>
+                            <i class="fas fa-envelope"></i>
+                            <a href="mailto:digitalwind@sstu.ru">digitalwind@sstu.ru</a>
+                        </li>
+                        <li>
+                            <i class="fas fa-phone"></i>
+                            <a href="tel:+78452998766">+7 (8452) 99-87-66</a>
+                        </li>
+                        <li>
+                            <i class="fas fa-map-marker-alt"></i>
+                            <span>г. Саратов, СГТУ им. Гагарина Ю.А.</span>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            
+            <div class="footer__bottom">
+                <p class="footer__copyright">© 2002-2025 Цифровой Ветер. Все права защищены.</p>
+                <div class="footer__legal">
+                    <a href="#">Политика конфиденциальности</a>
+                    <a href="#">Пользовательское соглашение</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Scroll to Top Button -->
+    <button class="scroll-top" id="scroll-top">
+        <i class="fas fa-arrow-up"></i>
+    </button>
+
+    <script src="js/main.js"></script>
+</body>
+</html>

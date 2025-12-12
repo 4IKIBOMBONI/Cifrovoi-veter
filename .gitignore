@@ -1,0 +1,9 @@
+node_modules/
+*.old
+*.log
+.DS_Store
+*_new.html
+*_migrated.html
+index_tailwind.html
+migrate_*.py
+__pycache__/

@@ -1,0 +1,371 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Часто задаваемые вопросы - Цифровой Ветер</title>
+    <link rel="stylesheet" href="css/output.css">
+    <link rel="stylesheet" href="css/output.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&family=Orbitron:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Header / Navigation -->
+    <header class="header" id="header">
+        <nav class="nav max-w-container mx-auto px-5">
+            <div class="nav__logo">
+                <i class="fas fa-wind"></i>
+                <span class="logo-text">Цифровой <span class="logo-accent">Ветер</span></span>
+            </div>
+            
+            <div class="nav__menu" id="nav-menu">
+                <ul class="nav__list">
+                    <li class="nav__item"><a href="index.html" class="nav__link">Главная</a></li>
+                    <li class="nav__item"><a href="index.html#about" class="nav__link">О конкурсе</a></li>
+                    <li class="nav__item"><a href="index.html#nominations" class="nav__link">Номинации</a></li>
+                    <li class="nav__item"><a href="catalog.html" class="nav__link">Каталог работ</a></li>
+                    <li class="nav__item"><a href="news.html" class="nav__link">Новости</a></li>
+                    <li class="nav__item"><a href="index.html#dksh" class="nav__link">ДКШ</a></li>
+                    <li class="nav__item"><a href="contacts.html" class="nav__link">Контакты</a></li>
+                </ul>
+                
+                <div class="nav__auth">
+                    <button class="inline-flex items-center gap-2.5 px-7 py-3 text-base font-semibold rounded-md transition-all duration-base cursor-pointer whitespace-nowrap bg-white text-primary border-2 border-primary hover:bg-primary hover:text-white" id="login-btn">Вход</button>
+                    <button class="inline-flex items-center gap-2.5 px-7 py-3 text-base font-semibold rounded-md transition-all duration-base cursor-pointer whitespace-nowrap bg-gradient-accent text-white shadow-md hover:-translate-y-0.5 hover:shadow-lg hover:shadow-glow" id="register-btn">Регистрация</button>
+                </div>
+            </div>
+
+            <div class="nav__toggle" id="nav-toggle">
+                <i class="fas fa-bars"></i>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Page Header -->
+    <section class="page-header">
+        <div class="page-header__bg"></div>
+        <div class="max-w-container mx-auto px-5">
+            <div class="page-header__content">
+                <h1 class="page-header__title">Часто задаваемые вопросы</h1>
+                <p class="page-header__subtitle">Ответы на популярные вопросы участников конкурса</p>
+                <div class="breadcrumbs">
+                    <a href="index.html"><i class="fas fa-home"></i> Главная</a>
+                    <span>/</span>
+                    <span>FAQ</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FAQ Section -->
+    <section class="faq-section py-section md:py-section-mobile">
+        <div class="max-w-container mx-auto px-5">
+            <div class="faq-categories">
+                <button class="faq-category active" data-category="all">
+                    <i class="fas fa-th"></i> Все вопросы
+                </button>
+                <button class="faq-category" data-category="registration">
+                    <i class="fas fa-user-plus"></i> Регистрация
+                </button>
+                <button class="faq-category" data-category="participation">
+                    <i class="fas fa-trophy"></i> Участие
+                </button>
+                <button class="faq-category" data-category="requirements">
+                    <i class="fas fa-file-alt"></i> Требования
+                </button>
+                <button class="faq-category" data-category="results">
+                    <i class="fas fa-award"></i> Результаты
+                </button>
+            </div>
+
+            <div class="faq-list">
+                <!-- Registration Questions -->
+                <div class="faq-item" data-category="registration">
+                    <div class="faq-item__question">
+                        <h3>Как зарегистрироваться для участия в конкурсе?</h3>
+                        <i class="fas fa-chevron-down"></i>
+                    </div>
+                    <div class="faq-item__answer">
+                        <p>Для регистрации необходимо:</p>
+                        <ol>
+                            <li>Зайти на главную страницу сайта digitalwind.sstu.ru</li>
+                            <li>Нажать кнопку "Регистрация" в верхнем меню</li>
+                            <li>Заполнить все необходимые поля регистрационной формы</li>
+                            <li>Подтвердить email адрес</li>
+                            <li>Войти в личный кабинет и загрузить свою работу</li>
+                        </ol>
+                        <p>После регистрации на указанный email придет письмо с подтверждением и инструкциями.</p>
+                    </div>
+                </div>
+
+                <div class="faq-item" data-category="registration">
+                    <div class="faq-item__question">
+                        <h3>Кто может участвовать в конкурсе?</h3>
+                        <i class="fas fa-chevron-down"></i>
+                    </div>
+                    <div class="faq-item__answer">
+                        <p>В конкурсе могут принять участие:</p>
+                        <ul>
+                            <li>Школьники (от 7 до 18 лет)</li>
+                            <li>Студенты учебных заведений</li>
+                            <li>Молодые специалисты до 25 лет</li>
+                        </ul>
+                        <p>Участие индивидуальное или командное (до 3 человек в команде).</p>
+                    </div>
+                </div>
+
+                <div class="faq-item" data-category="registration">
+                    <div class="faq-item__question">
+                        <h3>Сколько стоит участие в конкурсе?</h3>
+                        <i class="fas fa-chevron-down"></i>
+                    </div>
+                    <div class="faq-item__answer">
+                        <p>Участие в конкурсе <strong>бесплатное</strong>. Никакие организационные взносы не требуются.</p>
+                    </div>
+                </div>
+
+                <!-- Participation Questions -->
+                <div class="faq-item" data-category="participation">
+                    <div class="faq-item__question">
+                        <h3>Сколько работ можно подать на конкурс?</h3>
+                        <i class="fas fa-chevron-down"></i>
+                    </div>
+                    <div class="faq-item__answer">
+                        <p>Один участник может подать неограниченное количество работ, но в разных номинациях. В одной номинации можно представить только одну работу.</p>
+                    </div>
+                </div>
+
+                <div class="faq-item" data-category="participation">
+                    <div class="faq-item__question">
+                        <h3>Какие номинации есть в конкурсе?</h3>
+                        <i class="fas fa-chevron-down"></i>
+                    </div>
+                    <div class="faq-item__answer">
+                        <p>В 2025 году конкурс проводится по следующим номинациям:</p>
+                        <ul>
+                            <li><strong>Компьютерная графика</strong> - 2D и 3D графика, цифровая живопись</li>
+                            <li><strong>Видеомонтаж и анимация</strong> - анимационные ролики, видеомонтаж</li>
+                            <li><strong>Веб-дизайн</strong> - дизайн сайтов и интерфейсов</li>
+                            <li><strong>Программирование</strong> - программы, игры, приложения</li>
+                            <li><strong>Искусственный интеллект</strong> - проекты с использованием AI</li>
+                            <li><strong>VR/AR проекты</strong> - виртуальная и дополненная реальность</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="faq-item" data-category="participation">
+                    <div class="faq-item__question">
+                        <h3>До какого числа принимаются работы?</h3>
+                        <i class="fas fa-chevron-down"></i>
+                    </div>
+                    <div class="faq-item__answer">
+                        <p>Прием работ на конкурс "Цифровой Ветер-2025" продлится до <strong>24 марта 2025 года</strong> включительно. Работы, загруженные после указанной даты, рассматриваться не будут.</p>
+                    </div>
+                </div>
+
+                <!-- Requirements Questions -->
+                <div class="faq-item" data-category="requirements">
+                    <div class="faq-item__question">
+                        <h3>Какие требования к формату файлов?</h3>
+                        <i class="fas fa-chevron-down"></i>
+                    </div>
+                    <div class="faq-item__answer">
+                        <p>Требования зависят от номинации:</p>
+                        <ul>
+                            <li><strong>Компьютерная графика:</strong> JPG, PNG (не более 10 МБ, разрешение от 1920x1080)</li>
+                            <li><strong>Видео и анимация:</strong> MP4, AVI (не более 100 МБ, длительность до 5 минут)</li>
+                            <li><strong>Веб-дизайн:</strong> ссылка на опубликованный сайт или архив проекта</li>
+                            <li><strong>Программирование:</strong> исходный код + инструкция по запуску</li>
+                            <li><strong>AI проекты:</strong> описание проекта + демонстрация работы</li>
+                            <li><strong>VR/AR:</strong> видео демонстрация + исходники проекта</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="faq-item" data-category="requirements">
+                    <div class="faq-item__question">
+                        <h3>Нужно ли указывать использованные программы?</h3>
+                        <i class="fas fa-chevron-down"></i>
+                    </div>
+                    <div class="faq-item__answer">
+                        <p>Да, при загрузке работы необходимо указать все использованные программы и технологии. Это поможет жюри более объективно оценить вашу работу.</p>
+                    </div>
+                </div>
+
+                <div class="faq-item" data-category="requirements">
+                    <div class="faq-item__question">
+                        <h3>Можно ли использовать готовые шаблоны и библиотеки?</h3>
+                        <i class="fas fa-chevron-down"></i>
+                    </div>
+                    <div class="faq-item__answer">
+                        <p>Использование готовых шаблонов, библиотек и фреймворков допускается, но должно быть обязательно указано в описании работы. Плагиат и прямое копирование чужих работ запрещены.</p>
+                    </div>
+                </div>
+
+                <!-- Results Questions -->
+                <div class="faq-item" data-category="results">
+                    <div class="faq-item__question">
+                        <h3>Когда будут объявлены результаты?</h3>
+                        <i class="fas fa-chevron-down"></i>
+                    </div>
+                    <div class="faq-item__answer">
+                        <p>Результаты конкурса будут объявлены в <strong>мае 2025 года</strong>. Точная дата церемонии награждения будет сообщена дополнительно на сайте и в социальных сетях конкурса.</p>
+                    </div>
+                </div>
+
+                <div class="faq-item" data-category="results">
+                    <div class="faq-item__question">
+                        <h3>Какие призы получают победители?</h3>
+                        <i class="fas fa-chevron-down"></i>
+                    </div>
+                    <div class="faq-item__answer">
+                        <p>Победители и призеры конкурса получают:</p>
+                        <ul>
+                            <li><strong>1 место:</strong> Диплом победителя + денежный приз 50 000 ₽ + ценные призы</li>
+                            <li><strong>2 место:</strong> Диплом призера + денежный приз 30 000 ₽ + ценные призы</li>
+                            <li><strong>3 место:</strong> Диплом призера + денежный приз 20 000 ₽ + ценные призы</li>
+                        </ul>
+                        <p>Все финалисты получают дипломы участников и памятные подарки.</p>
+                    </div>
+                </div>
+
+                <div class="faq-item" data-category="results">
+                    <div class="faq-item__question">
+                        <h3>По каким критериям оценивают работы?</h3>
+                        <i class="fas fa-chevron-down"></i>
+                    </div>
+                    <div class="faq-item__answer">
+                        <p>Жюри оценивает работы по следующим критериям:</p>
+                        <ul>
+                            <li>Оригинальность и креативность</li>
+                            <li>Техническое исполнение</li>
+                            <li>Соответствие теме конкурса</li>
+                            <li>Визуальная привлекательность</li>
+                            <li>Функциональность (для программ и приложений)</li>
+                            <li>Инновационность решения</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <!-- General Questions -->
+                <div class="faq-item" data-category="all">
+                    <div class="faq-item__question">
+                        <h3>Можно ли изменить или удалить загруженную работу?</h3>
+                        <i class="fas fa-chevron-down"></i>
+                    </div>
+                    <div class="faq-item__answer">
+                        <p>Да, до окончания срока приема работ (24 марта 2025) вы можете изменить или удалить свою работу через личный кабинет. После закрытия регистрации изменения невозможны.</p>
+                    </div>
+                </div>
+
+                <div class="faq-item" data-category="all">
+                    <div class="faq-item__question">
+                        <h3>Как связаться с организаторами?</h3>
+                        <i class="fas fa-chevron-down"></i>
+                    </div>
+                    <div class="faq-item__answer">
+                        <p>Связаться с организаторами можно следующими способами:</p>
+                        <ul>
+                            <li><strong>Email:</strong> <a href="mailto:digitalwind@sstu.ru">digitalwind@sstu.ru</a></li>
+                            <li><strong>Телефон:</strong> <a href="tel:+78452998766">+7 (8452) 99-87-66</a></li>
+                            <li><strong>Социальные сети:</strong> VK, Telegram</li>
+                        </ul>
+                        <p>Или посетите страницу <a href="contacts.html">Контакты</a> для получения подробной информации.</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Contact CTA -->
+            <div class="faq-contact">
+                <div class="faq-contact__content">
+                    <i class="fas fa-question-circle"></i>
+                    <h3>Не нашли ответ на свой вопрос?</h3>
+                    <p>Свяжитесь с нами, и мы обязательно вам поможем!</p>
+                    <a href="contacts.html" class="inline-flex items-center gap-2.5 px-7 py-3 text-base font-semibold rounded-md transition-all duration-base cursor-pointer whitespace-nowrap bg-gradient-accent text-white shadow-md hover:-translate-y-0.5 hover:shadow-lg hover:shadow-glow px-9 py-4 text-lg">
+                        <i class="fas fa-envelope"></i> Связаться с нами
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="max-w-container mx-auto px-5">
+            <div class="footer__content">
+                <div class="footer__section">
+                    <div class="footer__logo">
+                        <i class="fas fa-wind"></i>
+                        <span class="logo-text">Цифровой <span class="logo-accent">Ветер</span></span>
+                    </div>
+                    <p class="footer__description">
+                        Международный конкурс компьютерных работ среди детей, юношества и студенческой молодежи
+                    </p>
+                    <div class="footer__social">
+                        <a href="#" class="social-link"><i class="fab fa-vk"></i></a>
+                        <a href="#" class="social-link"><i class="fab fa-telegram"></i></a>
+                        <a href="#" class="social-link"><i class="fab fa-youtube"></i></a>
+                        <a href="#" class="social-link"><i class="fab fa-instagram"></i></a>
+                    </div>
+                </div>
+                
+                <div class="footer__section">
+                    <h4 class="footer__title">Навигация</h4>
+                    <ul class="footer__links">
+                        <li><a href="index.html">Главная</a></li>
+                        <li><a href="index.html#about">О конкурсе</a></li>
+                        <li><a href="index.html#nominations">Номинации</a></li>
+                        <li><a href="catalog.html">Каталог работ</a></li>
+                        <li><a href="news.html">Новости</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer__section">
+                    <h4 class="footer__title">Участие</h4>
+                    <ul class="footer__links">
+                        <li><a href="#">Регистрация</a></li>
+                        <li><a href="faq.html">FAQ</a></li>
+                        <li><a href="#">Правила конкурса</a></li>
+                        <li><a href="index.html#dksh">ДКШ</a></li>
+                        <li><a href="contacts.html">Контакты</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer__section">
+                    <h4 class="footer__title">Контакты</h4>
+                    <ul class="footer__contacts">
+                        <li>
+                            <i class="fas fa-envelope"></i>
+                            <a href="mailto:digitalwind@sstu.ru">digitalwind@sstu.ru</a>
+                        </li>
+                        <li>
+                            <i class="fas fa-phone"></i>
+                            <a href="tel:+78452998766">+7 (8452) 99-87-66</a>
+                        </li>
+                        <li>
+                            <i class="fas fa-map-marker-alt"></i>
+                            <span>г. Саратов, СГТУ им. Гагарина Ю.А.</span>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            
+            <div class="footer__bottom">
+                <p class="footer__copyright">© 2002-2025 Цифровой Ветер. Все права защищены.</p>
+                <div class="footer__legal">
+                    <a href="#">Политика конфиденциальности</a>
+                    <a href="#">Пользовательское соглашение</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Scroll to Top Button -->
+    <button class="scroll-top" id="scroll-top">
+        <i class="fas fa-arrow-up"></i>
+    </button>
+
+    <script src="js/main.js"></script>
+    <script src="js/faq.js"></script>
+</body>
+</html>
